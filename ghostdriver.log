@@ -1,0 +1,30 @@
+[INFO  - 2021-12-12T01:11:13.568Z] GhostDriver - Main - running on port 54489
+[INFO  - 2021-12-12T01:11:14.522Z] Session [66c0b2e0-5ae8-11ec-ac61-b107be937d85] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-12-12T01:11:14.523Z] Session [66c0b2e0-5ae8-11ec-ac61-b107be937d85] - page.customHeaders:  - {}
+[INFO  - 2021-12-12T01:11:14.524Z] Session [66c0b2e0-5ae8-11ec-ac61-b107be937d85] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-12-12T01:11:14.526Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 66c0b2e0-5ae8-11ec-ac61-b107be937d85
+[ERROR - 2021-12-12T01:11:17.684Z] Session [66c0b2e0-5ae8-11ec-ac61-b107be937d85] - page.onError - msg: ReferenceError: Can't find variable: WeakMap
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-12-12T01:11:17.687Z] Session [66c0b2e0-5ae8-11ec-ac61-b107be937d85] - page.onError - stack:
+  (anonymous function) (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  f (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  (anonymous function) (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  f (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  (anonymous function) (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  f (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  (anonymous function) (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  f (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  (anonymous function) (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  f (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  (anonymous function) (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  f (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  (anonymous function) (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  f (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  (anonymous function) (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  f (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  (anonymous function) (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  f (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+  (anonymous function) (https://micro.rubiconproject.com/prebid/dynamic/10738.js:10)
+
+  phantomjs://platform/console++.js:263 in error
